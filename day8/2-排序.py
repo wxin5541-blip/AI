@@ -1,6 +1,3 @@
-# 作者: 王道 龙哥
-# 2025年01月02日14时07分14秒
-# xxx@qq.com
 import random
 import time
 import sys
@@ -88,9 +85,8 @@ class Sort:
 if __name__ == '__main__':
     count = 100000
     my_sort = Sort(count)
-    # print(my_sort.arr)
+    print(my_sort.arr)
     # my_sort.quick_sort(0, count - 1)
     # my_sort.heap_sort()
-    my_sort.test_time_use(my_sort.heap_sort)
+    # my_sort.test_time_use(my_sort.heap_sort)
     # print(my_sort.arr)
-
